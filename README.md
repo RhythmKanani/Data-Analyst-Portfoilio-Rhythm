@@ -30,7 +30,7 @@
 ### Data Ingestion:
 - Downloaded business licenses dataset from the Vancouver open data portal and Uploaded dataset to: s3://business-raw-rhy/Licenses/Rental-List/Year=2025/Server=BLGVS-RHY/
 - Organized folders by year and source for raw storage
-- 
+- ![Diagram showing the Data ingestion of rental list to S3 bucket.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
 ### Data Ingestion:
 - Downloaded business licenses dataset from the Vancouver open data portal and Uploaded dataset to: s3://business-raw-rhy/Licenses/Rental-List/Year=2025/Server=BLGVS-RHY/
 - Organized folders by year and source for raw storage
