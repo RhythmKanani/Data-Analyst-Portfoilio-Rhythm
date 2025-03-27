@@ -30,6 +30,7 @@
 ### Data Ingestion:
 - Downloaded business licenses dataset from the Vancouver open data portal and Uploaded dataset to: s3://business-raw-rhy/Licenses/Rental-List/Year=2025/Server=BLGVS-RHY/
 - Organized folders by year and source for raw storage
+- 
 ### Data Ingestion:
 - Downloaded business licenses dataset from the Vancouver open data portal and Uploaded dataset to: s3://business-raw-rhy/Licenses/Rental-List/Year=2025/Server=BLGVS-RHY/
 - Organized folders by year and source for raw storage
