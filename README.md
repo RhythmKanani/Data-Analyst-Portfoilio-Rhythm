@@ -30,7 +30,7 @@
 ### Data Ingestion:
 - Downloaded business licenses dataset from the Vancouver open data portal and Uploaded dataset to: s3://business-raw-rhy/Licenses/Rental-List/Year=2025/Server=BLGVS-RHY/
 - Organized folders by year and source for raw storage
-- ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
+- ![Ingestion Successful of rental list dataset to S3 Bucket from.]()
 ### Data Profiling and Cleaning:
 - Created Transform Bucket list Business-trf-rhy and subfolders in the S3 so that clean dataset can be stored for system and users. 
 - Created a project in AWS Glue DataBrew.
