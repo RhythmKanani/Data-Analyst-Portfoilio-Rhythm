@@ -45,11 +45,12 @@
 - Transformed and created a clean dataset in csv & parquet format for user and system perspective and stored it in new S3 bucket called as Business-trf-rhy.
  ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/3.png?raw=true)
  ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/4.png?raw=true)
- ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/2.png?raw=true)
+ ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/5.png?raw=true)
 ### Data Cataloging:
 - Used AWS Glue Crawler to scan and catalog the transformed dataset
 - Created a database: business-data-catalog-rhy and Generated structured tables with metadata.
- ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
+ ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/6.png?raw=true)
+ ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/7.png?raw=true)
 
 ### Data Summarization:
 - Built Visual ETL Pipeline in Glue to:
@@ -58,7 +59,10 @@ Calculate average number of employees
 Group by license status
 - Designed visual ETL pipeline Steps by using various summarisation features.
 - Implemented Data summarisation techniques like change schema to drop and change columns, filtered province columns to target Vancouver city, used aggregate function for getting Sum total fees paid and avg number of employees, attached new column for date. These steps help to achieve the information related to Type of status, number of businesses, Sum fees paid and Average number of employees which can be used for Data analysis.
- ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/8.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/9.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/10.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/11.png?raw=true)
 
 ### Data Analysis:
 - Used AWS Athena to answer 2 business questions:
@@ -67,6 +71,8 @@ Group by license status
 - Used the SQL services inbuilt in Athena to answer the Business Queries mentioned above.
 - For the first business query to answer and know the city wise avg no of employees to evaluate the employment rate and target job roles, DML commands such as SELECT, FROM, AS, GROUP were established by using the city and no of employee rows to derive the Avg_citywise_employees by running the query.
 - Secondly, for deriving a business solution for the second business question that is Revenue generated through rental business licenses grouped by city for the year 2024. A DML command was run where the table of cities was SELECTED and by doing SUM of the fees paid for the year 2024 using WHERE and CAST function and GROUPING by city.
+![Ingestion Successful of rental list dataset to S3 Bucket from.]()
+![Ingestion Successful of rental list dataset to S3 Bucket from.]()
 
 ### Data Security:
 - Configured custom KMS key (rental-licenses-key-rhy) for the purpose of providing confidentiality & integrity protection layer for the data analytical platform for datasets in the S3 Buckets.
@@ -76,6 +82,8 @@ Group by license status
   1. Raw: business-raw-bac-rhy
   2. Transformed: business-trf-bac-rhy
   3. Curated: business-cur-bac-rhy
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/12.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/13.png?raw=true)
   
 ### Data Governance:
 - Built Data Quality Check in AWS Glue Studio for checking the quality of dataset.
@@ -84,10 +92,14 @@ Group by license status
    2. Uniqueness on License Number
    3. Distinct Count on City
 - Output routed to specific Passed folder & Failed folder.
+  ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/22.png?raw=true)
+  ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/23.png?raw=true)
+  ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/24.png?raw=true)
   
 ### Data Monitoring and Controlling:
 - Created a Custom CloudWatch Dashboard for centralized monitoring related to AWS services and resources used for developing the Data Analytical platform: licenses-rental-mcr-rhy
 - Added Key Monitoring Widgets to the Dashboard such as the S3 Bucket Size Widget for three S3 buckets: business-raw-rhy, business-trf-rhy, business-cur-rhy which helps in visualizing storage growth trends over time, KMS key usage, Estimated service costs and a CloudTrail Alarm for data size > 500,000 KB.
+  ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/25.png?raw=true)
 
 ## 4. Tools and Technologies utilised:
   - AWS S3 – Cloud storage for raw, transformed, and curated data
