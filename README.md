@@ -71,8 +71,8 @@ Group by license status
 - Used the SQL services inbuilt in Athena to answer the Business Queries mentioned above.
 - For the first business query to answer and know the city wise avg no of employees to evaluate the employment rate and target job roles, DML commands such as SELECT, FROM, AS, GROUP were established by using the city and no of employee rows to derive the Avg_citywise_employees by running the query.
 - Secondly, for deriving a business solution for the second business question that is Revenue generated through rental business licenses grouped by city for the year 2024. A DML command was run where the table of cities was SELECTED and by doing SUM of the fees paid for the year 2024 using WHERE and CAST function and GROUPING by city.
-![Ingestion Successful of rental list dataset to S3 Bucket from.]()
-![Ingestion Successful of rental list dataset to S3 Bucket from.]()
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/12.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/13.png?raw=true)
 
 ### Data Security:
 - Configured custom KMS key (rental-licenses-key-rhy) for the purpose of providing confidentiality & integrity protection layer for the data analytical platform for datasets in the S3 Buckets.
@@ -82,8 +82,8 @@ Group by license status
   1. Raw: business-raw-bac-rhy
   2. Transformed: business-trf-bac-rhy
   3. Curated: business-cur-bac-rhy
-![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/12.png?raw=true)
-![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/13.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/14.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/15.png?raw=true)
   
 ### Data Governance:
 - Built Data Quality Check in AWS Glue Studio for checking the quality of dataset.
