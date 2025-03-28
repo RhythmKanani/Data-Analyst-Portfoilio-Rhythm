@@ -31,7 +31,7 @@
 - Downloaded business licenses dataset from the Vancouver open data portal and Uploaded dataset to: s3://business-raw-rhy/Licenses/Rental-List/Year=2025/Server=BLGVS-RHY/
 - Organized folders by year and source for raw storage
 ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
-![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/2.png?raw=true)
 
 ### Data Profiling and Cleaning:
 - Created Transform Bucket list Business-trf-rhy and subfolders in the S3 so that clean dataset can be stored for system and users. 
@@ -43,9 +43,9 @@
 - Applied regex on Business Name to clean special characters
 - Filled the missing values with median in feespaid, missing values with most frequent value in issue date, expired date, Country, province. Standardized date formats to YYYY-MM-DD.
 - Transformed and created a clean dataset in csv & parquet format for user and system perspective and stored it in new S3 bucket called as Business-trf-rhy.
- ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
- ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/image.png?raw=true)
-
+ ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/3.png?raw=true)
+ ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/4.png?raw=true)
+ ![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/2.png?raw=true)
 ### Data Cataloging:
 - Used AWS Glue Crawler to scan and catalog the transformed dataset
 - Created a database: business-data-catalog-rhy and Generated structured tables with metadata.
