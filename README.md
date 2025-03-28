@@ -120,7 +120,7 @@ Group by license status
 
 ### Project 2 
 
-# **Project Title: Data Wrangling For Recruitment and Selection Procedure at University Canada West -  .**
+# **Project Title: Data Wrangling For Recruitment and Selection Procedure at University Canada West.**
 
 ## Project Description:
 This project focusesd on wrangling recruitment-related data at University Canada West, integrating datasets like referral lists, faculty list, and recruitment list. Using AWS tools such as EC2, Glue DataBrew, Athena, and S3, the project ensures the data is cleaned, transformed, and query-ready for insightful analysis.
@@ -130,15 +130,15 @@ To prepare and unify referral, faculty, and recruitment datasets to enable Unive
 
 ## 1. Dataset:
 - Format: CSV
-- Dataset:
-  1. **Referral List**
+  
+  1.**Referral List**
   - Referral ID
   - Referrer Name
   - Referred Candidate Name
   - Referral Source
   - Date Referred
   - Status
-  - 
+    
   2.**Faculty List**
   - Faculty ID
   - Name
@@ -166,7 +166,7 @@ To prepare and unify referral, faculty, and recruitment datasets to enable Unive
 1. Removing missing or redundant rows
 2. Standardizing name and date formats
 3. Delete Errors in the data
-   
+
 ### Data Transformation:
 -Applied Glue jobs to Merge referral and recruitment lists on candidate name, Map faculty qualifications to department needs, Flag inconsistencies in hiring decisions.
 
