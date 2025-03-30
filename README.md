@@ -204,4 +204,10 @@ CloudWatch - Data monitoring and controlling.
 2. Science and Business departments received the highest number of applications.
 3. Average time-to-hire: 18 days from application to final decision.
 
+
+## AWS Cloud Foundation Certificate and Badge.
+
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/AWS%20Certificate.png?raw=true)
+![Ingestion Successful of rental list dataset to S3 Bucket from.](https://github.com/RhythmKanani/Data-Analyst-Portfoilio-Rhythm/blob/main/Images/aws-academy-graduate-aws-academy-cloud-foundations.png?raw=true)
+
    
